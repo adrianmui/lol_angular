@@ -1,4 +1,4 @@
-lol.controller('LolCtrl', ['$scope', 'playersService', 'championsService', function($scope, playersService, championsService) {
+lol.controller('LolCtrl', ['$scope', 'playersService', 'championsService', 'playerDataService', function($scope, playersService, championsService, playerDataService) {
 
   championsService.all()
     .then(function(champions) {
@@ -8,7 +8,7 @@ lol.controller('LolCtrl', ['$scope', 'playersService', 'championsService', funct
     .then(function(players) {
       $scope.players = players;
     });
-  
+  playerDataService.getPlayerData();
 
 
 }]);

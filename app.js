@@ -1,0 +1,1 @@
+var lol = angular.module('lol', []);

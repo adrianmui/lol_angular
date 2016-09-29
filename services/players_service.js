@@ -1,4 +1,4 @@
-lol.factory('playersService', ['$http', function($http) {
+app.factory('playersService', ['$http', function($http) {
   var stub = {};
 
   

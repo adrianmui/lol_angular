@@ -1,27 +1,31 @@
 {
-    "0" : {
-      "team": "AHQ",
+    "1" : {
+      "id": "1",
+      "team_id": "1", 
       "name": "westdoor",
       "username": "ahqwestd00r",
       "game_id": 81199111
     },
 
-    "1" : {
-      "team": "EDG",
+    "2" : {
+      "id": "2",
+      "team_id": "2", 
       "name": "deft",
       "username": "TP FROM S5",
       "game_id": 81199116
     },
 
-    "2" : {
-      "team": "AHQ",
+    "3" : {
+      "id": "3",
+      "team_id": "1",
       "name": "an",
       "username": "7pTW2r4aUr2T",
       "game_id": 81199110
     },
 
-    "3" : {
-      "team": "EDG",
+    "4" : {
+      "id": "4",
+      "team_id": "2",
       "name": "scout",
       "username": "ssss3332222",
       "game_id": 81199115

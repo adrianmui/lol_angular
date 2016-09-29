@@ -1,4 +1,4 @@
-lol.factory('playerDataService', ['$http', 'playersService', function($http, playersService) {
+app.factory('playerDataService', ['$http', 'playersService', function($http, playersService) {
   var stub = {};
 
   //https://na.api.pvp.net/api/lol/na/v1.3/stats/by-summoner/81199115/ranked?season=SEASON2016&api_key=7e050cd3-bfb8-41f8-b2fd-de6446fbc65e

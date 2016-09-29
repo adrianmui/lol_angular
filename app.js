@@ -23,17 +23,20 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
     // })
     .state('league.show', {
       url: '/:leagueId',
-      // templateUrl: 'templates/leagueIndex.html',
+      
       views: {
-        'teamsPanel' : {
+        '' : {
+          templateUrl: 'templates/leagueIndex.html',
+        },
+        'teamsPanel@league.show' : {
           templateUrl:'templates/teamsPanel.html',
           controller: 'TeamCtrl'
         },
-        'panel2' : {
+        'panel2@league.show' : {
           templateUrl:'templates/panel2.html',
           controller: 'LolCtrl'
         },
-        'panel3' : {
+        'panel3@league.show' : {
           templateUrl:'templates/panel3.html',
           controller: 'LolCtrl'
         }

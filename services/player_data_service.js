@@ -8,7 +8,6 @@ app.factory('playerDataService', ['$http', 'playersService', function($http, pla
   stub.getPlayerData = function(player) {
     return $http.get("https://na.api.pvp.net/api/lol/na/v1.3/stats/by-summoner/" + player_id + "/ranked?season=SEASON2016" + "&api_key=" +RIOT_API_KEY).then( function(response) {
       console.log(response.data);
-      debugger;
     })
   };
 

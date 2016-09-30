@@ -1,0 +1,38 @@
+{
+    "1" : {
+      "id": "1",
+      "team_ids": [1,2],
+      "region": "global"
+    },
+
+    "2" : {
+      "id": "2",
+      "team_ids": [],
+      "region": "NA"
+    },
+
+    "3" : {
+      "id": "3",
+      "team_ids": [2],
+      "region": "EU"
+    },
+
+    "4" : {
+      "id": "4",
+      "team_ids": [1],
+      "region": "CN"
+    },
+
+    "5" : {
+      "id": "5",
+      "team_ids": [],
+      "region": "KR"
+    },
+
+    "6" :{
+      "id": "6",
+      "team_ids": [],
+      "region": "WC"
+    }
+
+  }

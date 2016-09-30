@@ -25,7 +25,7 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
       url: '/:leagueId',
       
       views: {
-        '' : {
+        '@' : {
           templateUrl: 'templates/leagueIndex.html',
         },
         'teamsPanel@league.show' : {
